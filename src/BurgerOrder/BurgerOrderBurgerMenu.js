@@ -21,7 +21,7 @@ class BurgerOrderBurgerMenu extends Component {
                     </td>
                     <td className="text-right pr-5">$ {food.price.toLocaleString()}</td>
                     <td className="text-right pr-5">$ {(food.amount * food.price).toLocaleString()}</td>
-                    <td><button className="btn btn-sm btn-outline-warning" onClick={() => {this.props.dispatch(deleteFillingFood(food.name.toLowerCase()))}}>Xóa</button></td>
+                    <td><button className="btn btn-sm btn-outline-warning" onClick={() => {this.props.dispatch(deleteFillingFood(food.name.toLowerCase()))}}>Delete</button></td>
                 </tr>
                 );
         });
