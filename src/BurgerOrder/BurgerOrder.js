@@ -11,14 +11,14 @@ export default class BaiTapBurger extends Component {
                 <div className="row">
                     <div className="col-6">
                         <div className="burger__left--title">
-                            <h1>Bài tập burger cybersoft</h1>
-                            <p>Bánh burger của bạn</p>
+                            <h1>Burger order - React Js</h1>
+                            <p>Practice to improve react-redux skill!</p>
                         </div>
                         <BurgerOrderBugerParts />
                     </div>
                     <div className="col-6">
                         <div className="burger__left--title pt-3">
-                            <p>Chọn thành phần burger</p>
+                            <p>Choose your burger part:</p>
                             <BurgerOrderOptionButtons />
                         </div>
                         <BurgerOrderBurgerMenu />
