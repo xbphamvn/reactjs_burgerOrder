@@ -35,9 +35,9 @@ class BurgerOrderBurgerMenu extends Component {
                     <thead>
                         <tr>
                             <th>Menu</th>
-                            <th>Số lượng</th>
-                            <th className="text-center">Đơn giá</th>
-                            <th className="text-center">Thành tiền</th>
+                            <th>Quantity</th>
+                            <th className="text-center">Price</th>
+                            <th className="text-center">Sub-Total</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -47,7 +47,7 @@ class BurgerOrderBurgerMenu extends Component {
                     <tfoot>
                         <tr>
                             <td colSpan="2"></td>
-                            <th className="text-center text-primary">Tổng cộng</th>
+                            <th className="text-center text-primary">Total</th>
                             <th className="text-right text-primary pr-5">$ {this.renderFillingFoodsTable(this.props.fillingFoods).total}</th>
                             <th></th>
                         </tr>
